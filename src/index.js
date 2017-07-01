@@ -1,3 +1,6 @@
-import Grid from './Grid/Grid';
-import Cell from './Grid/Cell';
-export { Grid, Cell };
+import Grid from './components/Grid';
+import Cell from './components/Cell';
+
+console.log(Grid);
+
+module.exports = { Grid, Cell };
