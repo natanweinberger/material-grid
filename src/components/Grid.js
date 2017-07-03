@@ -14,7 +14,10 @@ const GenerateGridClassNames = props => {
 
 const Grid = props => {
   return (
-    <div className={GenerateGridClassNames(props)}>
+    <div
+      className={GenerateGridClassNames(props)}
+      style={props.style && props.style}
+    >
       {props.children}
     </div>
   );
